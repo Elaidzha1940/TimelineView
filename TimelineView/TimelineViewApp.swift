@@ -13,7 +13,7 @@ import SwiftUI
 struct TimelineViewApp: App {
     var body: some Scene {
         WindowGroup {
-            TimelineView()
+            TimelineViewView()
         }
     }
 }
