@@ -20,7 +20,7 @@ struct TimelineViewView: View {
                 
                 Text("\(context.date)")
                 Text("\(context.date.timeIntervalSince1970)")
-        
+                
                 //let seconds = Calendar.current.component(.second, from: context.date)
                 
                 let seconds = context.date.timeIntervalSince(startTime)
@@ -33,7 +33,7 @@ struct TimelineViewView: View {
                 } else if context.cadence == .seconds {
                     Text("Cadence: Seconds")
                 }
-        
+                
                 Ellipse()
                     .foregroundColor(.white)
                     .frame(
